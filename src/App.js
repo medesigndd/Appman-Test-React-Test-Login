@@ -7,7 +7,7 @@ import Integrations from "./components/Pages/Integrations";
 import Reports from "./components/Pages/Reports";
 import { store } from "./helpers";
 import { Provider } from "react-redux";
-import { BrowserRouter, Route, Switch, Link  } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 
 const wrapperDashboard = Wrapper(Dashboard);
@@ -15,7 +15,6 @@ const wrapperOrders = Wrapper(Orders);
 const wrapperReports = Wrapper(Reports);
 const wrapperIntegrations = Wrapper(Integrations);
 const wrapperCustomers = Wrapper(Customers);
-
 class App extends Component {
   render() {
     return (

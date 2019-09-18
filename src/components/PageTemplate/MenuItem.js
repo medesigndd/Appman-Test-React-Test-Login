@@ -26,7 +26,7 @@ export const mainListItems = (
         <ListItemIcon>
           <ShoppingCartIcon />
         </ListItemIcon>
-        <ListItemText primary="menu1" />
+        <ListItemText primary="customers" />
       </ListItem>
     </Link>
     <Link to="/orders" style={{ textDecoration: "none" }}>
@@ -34,7 +34,7 @@ export const mainListItems = (
         <ListItemIcon>
           <PeopleIcon />
         </ListItemIcon>
-        <ListItemText primary="menu2" />
+        <ListItemText primary="orders" />
       </ListItem>
     </Link>
     <Link to="/reports" style={{ textDecoration: "none" }}>
@@ -42,7 +42,7 @@ export const mainListItems = (
         <ListItemIcon>
           <BarChartIcon />
         </ListItemIcon>
-        <ListItemText primary="menu3" />
+        <ListItemText primary="reports" />
       </ListItem>
     </Link>
     <Link to="/integrations" style={{ textDecoration: "none" }}>
@@ -50,7 +50,7 @@ export const mainListItems = (
         <ListItemIcon>
           <LayersIcon />
         </ListItemIcon>
-        <ListItemText primary="menu4" />
+        <ListItemText primary="integrations" />
       </ListItem>
     </Link>
   </Fragment>

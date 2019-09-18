@@ -1,8 +1,13 @@
-# Appman-Test
+react redux basit login uygulaması material ui - react-redux-simple-login-application material ui   
 
-### Start the React App
- Excute the following command: 
-```bash
-npm start
-```
-The application will start automatically in your browser on http://localhost:3000
+
+git clone https://github.com/emrahyurttutan/react-redux-simple-login-application.git   
+
+cd react-redux-simple-login-application  
+yarn   
+yarn start  
+
+
+**default information  / tools/user-service.js**  
+username : emrah   
+password : 123   

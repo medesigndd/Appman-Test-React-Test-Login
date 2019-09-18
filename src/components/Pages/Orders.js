@@ -6,7 +6,7 @@ class Orders extends Component {
   render() {
     return (
       <Typography variant="display1" gutterBottom component="h2">
-        Text 2
+        Orders
       </Typography>
     );
   }

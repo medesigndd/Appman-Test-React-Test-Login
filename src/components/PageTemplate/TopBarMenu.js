@@ -60,14 +60,12 @@ class TopBarMenu extends Component {
             >
               Dashboard
             </Typography>
-            
             <IconButton color="inherit">
               <Badge badgeContent={4} color="secondary">
                 <NotificationsIcon />
               </Badge>
             </IconButton>
             <Typography color="inherit">{user}</Typography>
-
             <Button
               variant="contained"
               size="small"

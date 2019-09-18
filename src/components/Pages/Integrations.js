@@ -6,7 +6,7 @@ class Integrations extends Component {
   render() {
     return (
       <Typography variant="display1" gutterBottom component="h2">
-        Text 4
+        Integrations
       </Typography>
     );
   }
