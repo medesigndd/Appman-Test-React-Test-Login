@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Typography } from "../../includes";
-import { addToCart } from 'actions/cartActions'
+import { addToCart } from './actions/cartActions'
 
 class Reports extends Component {
   render() {
